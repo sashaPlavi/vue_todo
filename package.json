@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://sashaplavi.github.io/vue_todo/",
   "dependencies": {
     "core-js": "^3.4.3",
+    "gh-pages": "^2.1.1",
     "uuid": "^3.3.3",
     "vue": "^2.6.10"
   },
